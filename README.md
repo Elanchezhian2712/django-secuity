@@ -61,3 +61,28 @@ python3 manage.py check --deploy
 
 **Status: Secure for HTTP-only deployments**
 ```
+
+
+
+--------------------------------env---------------------
+
+# DJANGO_SETTINGS=http
+
+# SECRET_KEY=(%!va8&o4i*4gbcw%sd^y9&ogza$*1b&i(0s3^23j(b1sl&f^*
+
+# DEBUG=False
+
+# AES_KEY=cf371fae2353d0039c7e951b9efd8b02c1dc334d1e5071c85aed2a3ffee677b2
+
+# ALLOWED_HOSTS=<ip_address>
+# CSRF_TRUSTED_ORIGINS=http://<ip_address>
+
+# EMP_ID=MAH001
+
+# DB_ENGINE=django.db.backends.postgresql_psycopg2
+# DB_SEG_TOOL=
+# DB_USER=
+# DB_PASSWORD=
+# DB_HOST=<ip_address> or 
+# DB_HOST=host.docker.internal
+# DB_PORT=5432
